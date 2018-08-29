@@ -10,13 +10,16 @@ Disable [WordPress XML-RPC](https://codex.wordpress.org/XML-RPC_Support) on [Tre
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
+- [Goal](#goal)
+- [Why disable WordPress XML-RPC?](#why-disable-wordpress-xml-rpc)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Role Variables](#role-variables)
-- [Usage](#usage)
+- [Known Issues](#known-issues)
+  - [Incompatible Plugins](#incompatible-plugins)
 - [FAQs](#faqs)
-  - [How do you purge Kinsta cache?](#how-do-you-purge-kinsta-cache)
-- [See Also](#see-also)
+  - [Can I use this on managed hosting?](#can-i-use-this-on-managed-hosting)
+  - [It looks awesome. Where can I find some more goodies like this?](#it-looks-awesome-where-can-i-find-some-more-goodies-like-this)
+  - [This isn't on wp.org. Where can I give a ⭐️⭐️⭐️⭐️⭐️ review?](#this-isnt-on-wporg-where-can-i-give-a-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-review)
 - [Testing](#testing)
   - [Syntax Check](#syntax-check)
 - [Author Information](#author-information)
