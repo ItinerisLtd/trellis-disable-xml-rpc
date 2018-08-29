@@ -86,7 +86,7 @@ Then, re-provision as usual:
 
 ### Incompatible Plugins
 
-Unfortunately, there are still some plugins relying [WordPress XML-RPC](https://codex.wordpress.org/XML-RPC_Support).
+Unfortunately, some plugins still relying on [WordPress XML-RPC](https://codex.wordpress.org/XML-RPC_Support):
 
 - [Jetpack](https://jetpack.com/support/getting-started-with-jetpack/troubleshooting-tips/)
 
@@ -101,6 +101,8 @@ You can disable WordPress XML-RPC by filters:
 - [xmlrpc_enabled](https://developer.wordpress.org/reference/hooks/xmlrpc_enabled/) - The name is [misleading](https://developer.wordpress.org/reference/hooks/xmlrpc_enabled/#description)!
 - [xmlrpc_methods](https://developer.wordpress.org/reference/hooks/xmlrpc_methods/)
 - [xmlrpc_element_limit](https://developer.wordpress.org/reference/hooks/xmlrpc_element_limit/)
+
+Or, just use our plugin - [itineris-disable-xml-rpc](https://github.com/ItinerisLtd/itineris-disable-xml-rpc)
 
 ### It looks awesome. Where can I find some more goodies like this?
 
