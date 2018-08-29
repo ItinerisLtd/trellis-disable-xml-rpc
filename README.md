@@ -98,7 +98,7 @@ No, you can't use this on managed hosting such as [Kinsta](http://bit.ly/kinsta-
 
 You can disable WordPress XML-RPC by filters:
 
-- [xmlrpc_enabled](https://developer.wordpress.org/reference/hooks/xmlrpc_enabled/) - The name is [misleading]((https://developer.wordpress.org/reference/hooks/xmlrpc_enabled/#description))!
+- [xmlrpc_enabled](https://developer.wordpress.org/reference/hooks/xmlrpc_enabled/) - The name is [misleading](https://developer.wordpress.org/reference/hooks/xmlrpc_enabled/#description)!
 - [xmlrpc_methods](https://developer.wordpress.org/reference/hooks/xmlrpc_methods/)
 - [xmlrpc_element_limit](https://developer.wordpress.org/reference/hooks/xmlrpc_element_limit/)
 
