@@ -1,0 +1,14 @@
+---
+- name: Ensure includes.d directories exist
+  file:
+    path: "{{ nginx_path }}/includes.d/{{ item.key }}"
+    state: directory
+    mode: 0755
+  with_dict: "{{ wordpress_sites }}"
+
+- name: Template disable-xml-rpc.conf file out to includes.d
+  template:
+    src: disable-xml-rpc.conf.j2
+    dest: "{{ nginx_path }}/includes.d/{{ item.key }}/disable-xml-rpc.conf"
+  with_dict: "{{ wordpress_sites }}"
+  notify: reload nginx

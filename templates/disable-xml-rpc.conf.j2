@@ -1,0 +1,8 @@
+# {{ ansible_managed }}
+
+# trellis-disable-xml-rpc
+# https://github.com/ItinerisLtd/trellis-disable-xml-rpc
+
+location ^~ /wp/xmlrpc.php {
+  return 444;
+}

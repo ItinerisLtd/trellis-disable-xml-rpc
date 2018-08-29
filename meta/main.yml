@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Itineris Limited
+  description: Disable WordPress XML-RPC on Trellis sites
+  company: Itineris Limited
+  license: MIT
+  min_ansible_version: 2.6
+  platforms:
+  - name: Ubuntu
+    versions:
+    - xenial
+  galaxy_tags:
+    - trellis
+    - wordpress
+    - xml-rpc
+dependencies: []
