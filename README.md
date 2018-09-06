@@ -53,7 +53,7 @@ Add this role to `requirements.yml`:
 ```yaml
 # requirements.yml
 - src: https://github.com/ItinerisLtd/trellis-disable-xml-rpc
-  version: 0.1.0 # Check for latest version!
+  version: 0.2.0 # Check for latest version!
 ```
 
 Run the command:

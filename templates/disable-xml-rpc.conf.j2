@@ -3,6 +3,6 @@
 # trellis-disable-xml-rpc
 # https://github.com/ItinerisLtd/trellis-disable-xml-rpc
 
-location ^~ /wp/xmlrpc.php {
+location ~* xmlrpc\.php$ {
   return 444;
 }
